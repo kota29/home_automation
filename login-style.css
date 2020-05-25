@@ -1,0 +1,54 @@
+body{
+  background-image:url(https://www.kothanalloorforanechurch.com/assets/images/secure.jpg);
+  background-repeat: no-repeat;
+  background-size: 1800px 800px;
+}
+h1{
+  text-align:center;
+  color: yellow;
+  font-family: monospace;
+  font-weight: bold;
+}
+.active{
+  width: 350px;
+padding: 20px;
+position: absolute;
+top: 50%;
+left: 20%;
+transform: translate(-50%,-50%);
+color:white;
+text-transform: uppercase;
+text-align: center;
+}
+input[type="text"],input[type="password"]{
+color:white;
+  border:0;
+  background: none;
+  margin: 5px auto;
+  text-align: center;
+  border: 2px solid blue;
+  padding:10px 10px;
+  width:200px;
+  outline:none;
+  border-radius: 20px;
+  transition: 0.25s;
+}
+input[type="text"]:focus,input[type="password"]:focus{
+  width:270px;
+}
+ button{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 24px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.active button:hover{
+  background: #2ecc71;
+}
