@@ -1,0 +1,33 @@
+body{
+  background-image: url(https://newsthrive.com/wp-content/uploads/2020/02/Best-laptop-2021-1536x864.jpg);
+  background-repeat: no-repeat;
+  background-size: 85% 100%;
+  background-position:210px 0px;
+}
+.menu-bar ul li a{
+
+  text-decoration: none;
+  color:white;
+}
+.menu-bar ul{
+  margin: 0px;
+  padding:0px;
+  background-color: blue;
+  width: 200px;
+  height: 640px;
+}
+ ul li{
+ display: inline-grid;
+  padding: 30px;
+  width: 300px;
+  margin:0px;
+}
+
+  ul li:hover{
+  background-color:#2bab0d;
+  width:120px;
+  border-style: solid;
+
+
+
+}
