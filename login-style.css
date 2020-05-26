@@ -65,7 +65,10 @@ font-size: 16px;
 }
 a:hover{
   color:red;
+  transition: .5s;
   font-size: 20px;
+  transition: .5s;
+
 
 }
 .signup a{
@@ -78,6 +81,22 @@ font-size: 16px;
 
 }
 .signup a:hover{
-  color:red;
+  color:white;
+  transition: .5s;
   font-size: 20px;
+  transition: .5s;
+}
+.login a{
+  color: green;
+  width:300px;
+  position: absolute;
+  top: 66%;
+  left: 25%;
+  font-size: 16px;
+}
+.login a:hover{
+  color:white;
+  transition: .5s;
+  font-size: 20px;
+  transition: .5s;
 }
