@@ -1,0 +1,94 @@
+body{
+  background-image: url(https://newsthrive.com/wp-content/uploads/2020/02/Best-laptop-2021-1536x864.jpg);
+  background-repeat: no-repeat;
+  background-size: 85% 100%;
+  background-position:210px 0px;
+}
+.menu-bar ul li a{
+
+  text-decoration: none;
+  color:white;
+}
+.menu-bar ul{
+  margin: 0px;
+  padding:0px;
+  background-color: #462C2C ;
+  width: 200px;
+  height: 640px;
+}
+ ul li{
+ display: inline-grid;
+ font-size: 20px;
+ font-style: italic;
+  padding: 30px;
+  width: 300px;
+  margin:0px;
+}
+.container{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top:9.5%;
+  left:12%;
+}
+.container1{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top:23.5%;
+  left:12%;
+}
+.container2{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top:38%;
+  left:12%;
+}
+.container3{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top:52.5%;
+  left:12%;
+}
+.container4{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top:66.5%;
+  left:12%;
+}
+.switch{
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 20px;
+  margin: 0 10px;
+}
+.slider{
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 34px;
+}
+.switch input{display:none}
+.slider:before{
+  position: absolute;
+  content: "";
+  height:85%;
+  width: 40%;
+  top: 3%
+  left: 10%;
+  bottom: 8%;
+  background-color: white;
+  transition: .4s;
+  border-radius: 40px;
+
+}
+input:checked + .slider {
+  background-color : #A1FF00 ;
+}
+input:checked + .slider:before{
+  transform: translate(29px);
+}
