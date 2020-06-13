@@ -1,7 +1,7 @@
 body{
   background-image: url(https://newsthrive.com/wp-content/uploads/2020/02/Best-laptop-2021-1536x864.jpg);
   background-repeat: no-repeat;
-  background-size: 85% 100%;
+  background-size: 85% 98.3%;
   background-position:210px 0px;
 }
 .menu-bar ul li a{
@@ -14,7 +14,7 @@ body{
   padding:0px;
   background-color: #462C2C ;
   width: 200px;
-  height: 640px;
+  height: 590px;
 }
  ul li{
  display: inline-grid;
@@ -24,35 +24,35 @@ body{
   width: 300px;
   margin:0px;
 }
-.container{
+#container{
   position: absolute;
-  transform: translate(-50%,-50%);
-  top:9.5%;
-  left:12%;
+  transform: translate(-40%,-50%);
+  top:78px;
+  left:160px;
 }
 .container1{
   position: absolute;
   transform: translate(-50%,-50%);
-  top:23.5%;
-  left:12%;
+  top:159px;
+  left:160px;
 }
 .container2{
   position: absolute;
   transform: translate(-50%,-50%);
-  top:38%;
-  left:12%;
+  top:242px;
+  left:160px;
 }
 .container3{
   position: absolute;
   transform: translate(-50%,-50%);
-  top:52.5%;
-  left:12%;
+  top:327px;
+  left:160px;
 }
 .container4{
   position: absolute;
   transform: translate(-50%,-50%);
-  top:66.5%;
-  left:12%;
+  top:411px;
+  left:160px;
 }
 .switch{
   position: relative;
